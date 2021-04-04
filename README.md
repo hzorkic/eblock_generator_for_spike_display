@@ -30,6 +30,8 @@ Keep the following part cut offs in mind when selecting your multiplexed mutatio
 A .xlsx file containing the original list of mutations, the mutated sequences with their respective part overhangs, a column of notes, and a column with the length of the sequence. 
 For our project, we took the mutated sequences and ordered them on IDT as eblocks. 
 
+
+### How to run:
 If using WINDOWS:
 - press "Windows" + "R" keys together
 - search "cmd" and click enter
