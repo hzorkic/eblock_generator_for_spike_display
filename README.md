@@ -4,9 +4,11 @@
 
 ### Input:
 You absolutely **MUST** upload an .xlsx fiel with the following format:
+
 ![input example](https://user-images.githubusercontent.com/56274447/113521071-c89a0900-955c-11eb-8672-267904fe9ad9.png)
 
 Keep the following part cut offs in mind when selecting your multiplexed mutation strings:
+
 ![cutoffs](https://user-images.githubusercontent.com/56274447/113521302-385cc380-955e-11eb-91ff-e1d95269a05f.png)
 
 ### Examples:
