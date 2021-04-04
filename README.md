@@ -14,17 +14,21 @@ Keep the following part cut offs in mind when selecting your multiplexed mutatio
 ### Examples:
 1. you have mutations you want to alter at positions 5, 120, 135, and 600 in the same sequence. 
 - you cannot change all of these within the same sequences as they fall in diffrenet parts. you would include two lines in your .xlsx: 
-  - L5F, A120H, F135K *in order* which are in part 1a
-  - G600W which is in part 3
+  - "L5F, A120H, F135K" *in order* which are in part 1a
+  - "G600W" which is in part 3
 2. you have mutations you want to alter at position 135, 136 in the same sequence.
 - you would include one line in your .xlsx:
-  - F135K, F136G *in order* which is apart of part 1 (not 1a or 1b)
+  - "F135K, F136G" *in order* which is apart of part 1 (not 1a or 1b)
 3. you have mutations you want to alter at positions 5, 120, 135, 600 each in different sequences. 
 - you would include four lines in your .xlsx
-  - L5F
-  - A120H
-  - F135K
-  - G600W
+  - "L5F"
+  - "A120H"
+  - "F135K"
+  - "G600W"
+
+### Output:
+A .xlsx file containing the original list of mutations, the mutated sequences with their respective part overhangs, a column of notes, and a column with the length of the sequence. 
+For our project, we took the mutated sequences and ordered them on IDT as eblocks. 
 
 If using WINDOWS:
 - press "Windows" + "R" keys together
