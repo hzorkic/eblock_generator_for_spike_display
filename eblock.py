@@ -1,8 +1,8 @@
 import os
 import sys
 import pandas as pd
-import numpy as np
 
+print()
 print("Create an xlsx file with the following format for your spike variants:")
 print("   1. Do NOT add a header/column names.")
 print("   2. List each mutation as Orignial Amino Acid + Positoin + Desired Mutaiton")
@@ -15,7 +15,7 @@ print("   5. Your file needs to have a .xlsx extension. avoid spaces or '\\' '/'
 print()
 
 
-input_file = input("What is the filepath to your excel spreadsheet?\nexample C:\Research\04032021.xlsx: ")
+input_file = str(input("What is the filepath to your excel spreadsheet?\nexample C:/Research/eblock_generator_for_spike_display/04032021.xlsx: "))
 df = pd.read_excel(input_file, header= None, index_col= False) # can also index sheet by name or fetch all sheets
 df = df.drop(index = 0).values.tolist()
 mutations = df
