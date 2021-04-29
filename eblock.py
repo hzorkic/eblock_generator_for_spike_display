@@ -142,8 +142,8 @@ def part_check(positionAA):
         partstart = 1
         partend = 135
         partrefseq = "atgttcgtgttcctggtgctcctgcctctggtgagcagccagtgcgtgaacctgaccacccgaacccagctcccaccagcctacaccaacagctttacacggggcgtgtactaccctgacaaggtgttcagatctagcgtcctgcacagcactcaggacctcttcctgccgttcttcagcaacgtgacatggttccacgccatccacgtgagcggcacaaacggaaccaagcggtttgataaccccgtcctgccattcaatgatggagtttacttcgccagtaccgagaagagtaacatcatccggggctggatcttcggcaccaccctggatagcaaaacacagagcctcctgatcgtgaacaatgccacgaacgtcgtgatcaaggtgtgcgagttccagtttt"
-        partprime5 = "1a"
-        partprime3 = "1a"
+        partprime5 = "gcatcgtctcatcggcacctgccacctgac"
+        partprime3 = "gcaaggtggcaggtggacctgagacggcat"
         positionNT = 3*(positionAA)-2
         error = "None"
 
@@ -152,8 +152,8 @@ def part_check(positionAA):
         partstart = 138
         partend = 265
         partrefseq = "tgatcctttcctgggtgtgtactaccacaagaacaacaagagctggatggaaagcgagttcagagtctacagcagcgccaacaactgcacattcgagtacgtctctcagccttttctgatggaccttgaggggaaacaaggcaacttcaagaacctgagagaattcgtgttcaagaacatcgacggctacttcaaaatctactccaagcacacacccatcaacctggtccgggacctccctcagggcttcagcgccctggaacccctggtcgacctgcccataggcatcaacataacgcggttccaaaccctgctggccctgcatagatcctacctgactcctggcgacagcagcagcggatggaccgccggagctgcagcctacta"
-        partprime5 = "1b"
-        partprime3 = "1b"
+        partprime5 = "gcatcgtctcatcggcacctgccaccgcaa"
+        partprime3 = "tgtgggtggcaggtggacctgagacggcat"
         positionNT = (3*(positionAA)-2)-410
         error = "None"
         
@@ -162,8 +162,8 @@ def part_check(positionAA):
         partstart = 136
         partend = 137
         partrefseq = "ggtggcaggtggaaagtgaaacgtgatttcatgcgtcattttgaacattttgtaaatcttatttaataatgtgtgcggcaattcacatttaatttatgaatgttttcttaacatcgcggcaactcaagaaacggcaggttcggatcttagctactagagaaagaggagaaatactagatgcgtaaaggcgaagagctgttcactggtgtcgtccctattctggtggaactggatggtgatgtcaacggtcataagttttccgtgcgtggcgagggtgaaggtgacgcaactaatggtaaactgacgctgaagttcatctgtactactggtaaactgccggttccttggccgactctggtaacgacgctgacttatggtgttcagtgctttgctcgttatccggaccatatgaagcagcatgacttcttcaagtccgccatgccggaaggctatgtgcaggaacgcacgatttcctttaaggatgacggcacgtacaaaacgcgtgcggaagtgaaatttgaaggcgataccctggtaaaccgcattgagctgaaaggcattgactttaaagaggacggcaatatcctgggccataagctggaatacaattttaacagccacaatgtttacatcaccgccgataaacaaaaaaatggcattaaagcgaattttaaaattcgccacaacgtggaggatggcagcgtgcagctggctgatcactaccagcaaaacactccaatcggtgatggtcctgttctgctgccagacaatcactatctgagcacgcaaagcgttctgtctaaagatccgaacgagaaacgcgatcatatggttctgctggagttcgtaaccgcagcgggcatcacgcatggtatggatgaactgtacaaatgaccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatacacctgccacc"
-        partprime5 = "1"
-        partprime3 = "1"
+        partprime5 = "gcatcgtctcatcggcacctgccacctgac"
+        partprime3 = "tgtgggtggcaggtggacctgagacggcat"
         positionNT = 3*(positionAA)-2
         error = "None"
     
@@ -172,8 +172,8 @@ def part_check(positionAA):
         partstart = 268
         partend = 521
         partrefseq = "ggctacctgcaacctagaaccttcctgctgaagtacaacgagaacggcacaatcacagacgccgtcgactgcgccctggaccctctctctgagacaaagtgcaccctgaagtccttcaccgtggaaaagggcatctaccagaccagcaacttccgggtgcagcctacagagagcatcgtgcgatttccaaacattaccaacctctgccccttcggcgaggtgtttaacgccacaagatttgcctccgtttacgcctggaatagaaagagaatcagcaattgtgtggccgactactccgtgctgtataacagcgcctctttcagcaccttcaagtgctacggcgtttccccaacaaagctgaatgacctgtgcttcaccaacgtgtacgccgactccttcgtaattagaggcgatgaggtgcggcagatcgcaccaggccagaccggtaagatcgctgactacaactataagctgcctgatgattttacaggctgcgtgatcgcctggaactctaacaacctggatagcaaggtgggcggcaactacaactacctgtaccggctgtttcgcaagtctaacctgaaacctttcgagagagacatctccacagagatctaccaggccggttctacaccttgtaacggggtggaaggcttcaactgttacttccctctgcaaagctacggcttccagcctaccaatggagtcggctaccagccataccgggtggtcgtgctgtccttcgagttactccacgccccc"
-        partprime5 = "2"
-        partprime3 = "2"
+        partprime5 = "gcatcgtctcatcggcacctgccacctgtg"
+        partprime3 = "gccaggtggcaggtggacctgagacggcat"
         positionNT = (3*(positionAA)-2)-801
         error = "None"
         
@@ -182,8 +182,8 @@ def part_check(positionAA):
         partstart = 524
         partend = 786
         partrefseq = "ccgtctgcggtcctaagaagtccaccaatctggttaagaacaaatgcgtgaacttcaacttcaacggcctgaccgggaccggcgtgctgaccgaaagcaacaaaaagttcctccccttccagcagttcggccgtgatatcgctgacaccacagatgccgtcagagatccacagaccctggaaatcctggatattacaccctgctccttcggaggagtttctgtgatcacccccgggaccaataccagcaaccaggtggctgtgctgtaccaaggtgttaactgcaccgaggttcctgtggccatccacgccgatcagctgacacctacttggagagtgtactccactggctccaatgtgttccagaccagggccggatgtctgatcggcgccgagcacgtgaataacagttacgagtgcgacatccctatcggcgccggcatctgtgccagctaccagacccagacaaacagccctgggtctgcttcctctgtagctagccagagcatcatcgcctacaccatgagcctgggcgcagagaacagcgtggcctattccaacaactctatcgccattcccaccaactttacaattagcgtcacaacagagatcctgcccgtgagcatgaccaagaccagcgtggactgtacaatgtacatctgtggcgacagcactgaatgcagcaacctgctgctgcaatacggctccttttgcacccaactgaaccgggcgctgaccggaatcgccgtggaacaggacaaaaatacccaggaggtgttcgcccaagtgaagca"
-        partprime5 = "3"
-        partprime3 = "3"
+        partprime5 = "gcatcgtctcatcggcacctgccaccgcca"
+        partprime3 = "gatcggtggcaggtggacctgagacggcat"
         positionNT = (3*(positionAA)-2)-1567
         error = "None"
         
@@ -208,8 +208,13 @@ def part_check(positionAA):
         error = "None"
         
     else:
+        partstart = 0
+        partend = 0
+        partrefseq = ""
+        partprime5 = ""
+        partprime3 = ""
+        positionNT
         error = "this mutation lies on a part overhang"
-        return error
     
     return partstart, partend, partrefseq, partprime5, partprime3, positionNT, error
     
