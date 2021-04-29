@@ -1,5 +1,5 @@
 # eblock generator for spike display
-### A tool to generate custom SARS-CoV-2 spike mutation eblocks as described in Javanmardi et al. (2020)
+### A tool to generate custom SARS-CoV-2 spike mutation eblocks as described in [Rapid characterization of spike variants via mammalian cell surface display, Javanmardi et al. (2020) ](https://www.biorxiv.org/content/10.1101/2021.03.30.437622v2)
 
 ### Input:
 You absolutely **MUST** upload an .xlsx file with the following format:
