@@ -244,13 +244,15 @@ def main(mutations):
             refseq = mutate_pos(refseq, positionAA, mutation)[0]
             errors.append(mutate_pos(refseq, positionAA, mutation)[1])
             count += 1 
-            
-        # add overhangs
-        refseq = add_overhangs(refseq, partprime3, partprime5)
+          
         # remove deletions
         refseq.replace("---", "")
         # check for cutsites
-        errors.append(cut_site_check(refseq))
+        errors.append(cut_site_check(refseq)) 
+        # add overhangs
+        refseq = add_overhangs(refseq, partprime3, partprime5)
+        
+        
         
         df.append([", ".join(list_of_mutations), refseq, ", ".join(errors)])
     #print(*df, sep="\n")
